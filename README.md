@@ -1,9 +1,13 @@
 # EmuHawk on Immutable Linux
 Linux distributions such as SteamOS are known as Immutable, which often means that their system files are read only by default. It is possible to make them writable, but any additions and changes will be wiped by the next system update.
 
+## Prerequisites
+1. Distrobox
+2. [BizHawk](https://github.com/TASEmulators/BizHawk/releases)
+
 ## Native
 ### Setup
-1. Download the Linux version of BizHawk (`BizHawk-<version>-linux-x64.tar.gz`)
+1. Download the **Linux version** of BizHawk (`BizHawk-<version>-linux-x64.tar.gz`)
 2. Extract tarball contents wherever desired
 ### Installation
 #### Option 1: CLI
@@ -81,7 +85,7 @@ $ sudo apt install mesa-utils libgtk2.0-0 libsdl-sound1.2 mono-complete lua5.4 l
 
 ## Proton
 ### Setup
-1. Download the Windows version of BizHawk (`BizHawk-<verion>-win-x64.zip`)
+1. Download the **Windows version** of BizHawk (`BizHawk-<version>-win-x64.zip`)
 2. Extract zip contents wherever desired
 
 ### Installation (Steam)
