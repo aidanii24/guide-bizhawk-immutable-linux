@@ -79,12 +79,12 @@ $ sudo apt install mesa-utils libgtk2.0-0 libsdl-sound1.2 mono-complete lua5.4 l
 17. The exported file should be located in `/home/<user>/.local/bin/EmuHawkMono.sh`. Move this anywhere as desired
 18. Run the exported file
 
-### Proton
-#### Setup
+## Proton
+### Setup
 1. Download the Windows version of BizHawk (`BizHawk-<verion>-win-x64.zip`)
 2. Extract zip contents wherever desired
 
-#### Installation (Steam)
+### Installation (Steam)
 3. Open Steam
 4. Click _Add a Game_, then click _Add a Non-Steam Game…_.
 5. Click _Browse_ on the bottom-left corner of the Add Non-Steam Game dialog window
