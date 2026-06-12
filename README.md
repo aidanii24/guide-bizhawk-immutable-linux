@@ -14,10 +14,12 @@ Linux distributions such as SteamOS are known as Immutable, which often means th
 Source: [SpenserHaddad](https://gist.github.com/SpenserHaddad/417a772aea5be99d563fe73295bb62fb)
 
 3. Create the Distrobox container
+
+> You can change the image if desired, though you will also need to update the `additional-packages` entries accordingly to what the distribution image would need.
+
 ```
 distrobox create \
     --name BizHawkDistro \
-    # You can change the image if desired
     --image debian:trixie-20240513-slim \
     --additional-packages "mesa-utils libgtk2.0-0 libsdl-sound1.2 mono-complete lua5.4 liblua5.4-dev"
 ```
@@ -67,7 +69,7 @@ Note: Although Distroshelf is used for this guide, other Distrobox GUI Wrappers 
 10. Wait for the Container to install basic-packages
 11. Install BizHawk’s dependencies
 ```
-$ sudo apt install mesa-utils libgtk2.0-0 libsdl-sound1.2 mono-complete lua5.4 liblua5.4-dev
+sudo apt install mesa-utils libgtk2.0-0 libsdl-sound1.2 mono-complete lua5.4 liblua5.4-dev
 ```
 12. Wait for the dependencies to finish installing
 13. Exit/Close the terminal
